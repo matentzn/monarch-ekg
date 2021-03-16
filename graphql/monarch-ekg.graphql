@@ -1,0 +1,36 @@
+type Grant
+  {
+    name: String
+  }
+
+type NamedThing
+  {
+    name: String
+  }
+
+type Organisation
+  {
+    name: String
+  }
+
+type ProfessionalIndividual
+  {
+    name: String
+  }
+
+type Project
+  {
+    name: String
+  }
+
+type ProjectGoal
+  {
+    name: String
+  }
+
+type Software
+  {
+    name: String
+  }
+
+

@@ -1,0 +1,36 @@
+id: https://w3id.org/monarch-ekg
+name: monarch-ekg
+description: >-
+  This is the Schema for the Organisational Monarch Initiative Knowledge Graph (Monarch EKG).
+  The EKG is usually used for Enterprise Knowledge Graph, but the abbreviation is pretty ubiquitous now.
+imports:
+ - biolinkml:types
+prefixes:
+  biolinkml: https://w3id.org/biolink/biolinkml/
+  monarch-ekg: https://w3id.org/mixs/monarch-ekg/
+default_prefix: monarch-ekg
+
+slots:
+  name:
+    description: >-
+      The primary label of the entity
+
+classes:
+  named thing:
+    slots:
+      - name
+  professional individual:
+    is_a: named thing
+  grant:
+    is_a: named thing
+  project:
+    is_a: named thing
+  project goal:
+    is_a: named thing
+  organisation:
+    is_a: named thing
+  software:
+    is_a: named thing
+  
+
+

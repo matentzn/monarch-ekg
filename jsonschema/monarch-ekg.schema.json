@@ -1,0 +1,101 @@
+{
+   "$id": "https://w3id.org/monarch-ekg",
+   "$schema": "http://json-schema.org/draft-07/schema#",
+   "definitions": {
+      "Grant": {
+         "additionalProperties": false,
+         "description": "",
+         "properties": {
+            "name": {
+               "description": "The primary label of the entity",
+               "type": "string"
+            }
+         },
+         "required": [],
+         "title": "Grant",
+         "type": "object"
+      },
+      "NamedThing": {
+         "additionalProperties": false,
+         "description": "",
+         "properties": {
+            "name": {
+               "description": "The primary label of the entity",
+               "type": "string"
+            }
+         },
+         "required": [],
+         "title": "NamedThing",
+         "type": "object"
+      },
+      "Organisation": {
+         "additionalProperties": false,
+         "description": "",
+         "properties": {
+            "name": {
+               "description": "The primary label of the entity",
+               "type": "string"
+            }
+         },
+         "required": [],
+         "title": "Organisation",
+         "type": "object"
+      },
+      "ProfessionalIndividual": {
+         "additionalProperties": false,
+         "description": "",
+         "properties": {
+            "name": {
+               "description": "The primary label of the entity",
+               "type": "string"
+            }
+         },
+         "required": [],
+         "title": "ProfessionalIndividual",
+         "type": "object"
+      },
+      "Project": {
+         "additionalProperties": false,
+         "description": "",
+         "properties": {
+            "name": {
+               "description": "The primary label of the entity",
+               "type": "string"
+            }
+         },
+         "required": [],
+         "title": "Project",
+         "type": "object"
+      },
+      "ProjectGoal": {
+         "additionalProperties": false,
+         "description": "",
+         "properties": {
+            "name": {
+               "description": "The primary label of the entity",
+               "type": "string"
+            }
+         },
+         "required": [],
+         "title": "ProjectGoal",
+         "type": "object"
+      },
+      "Software": {
+         "additionalProperties": false,
+         "description": "",
+         "properties": {
+            "name": {
+               "description": "The primary label of the entity",
+               "type": "string"
+            }
+         },
+         "required": [],
+         "title": "Software",
+         "type": "object"
+      }
+   },
+   "properties": {},
+   "title": "monarch-ekg",
+   "type": "object"
+}
+
